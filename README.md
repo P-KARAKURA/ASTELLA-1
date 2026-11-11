@@ -1,20 +1,68 @@
-# React + Vite
+# HAVEN Tourism Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern luxury tourism landing page built with React and Vite. The project presents a premium travel experience for African destinations, with interactive country selection, destination story cards, restaurant/hotel/gallery highlights, and a booking form.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Luxury travel hero section with strong call-to-action buttons
+- Rwanda, DRC, Kenya, Tanzania, and Uganda destination selection
+- Interactive place cards with dynamic image and description updates
+- Photographer story snippets for standout destinations
+- Restaurant, hotel, and art gallery highlight cards
+- Event listings and special booking offers
+- Realistic travel booking form with total estimate
+- Responsive design for mobile and desktop
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- CSS
+- Lucide icons
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Project Structure
 
-## Expanding the Oxlint configuration
+```bash
+src/
+  App.jsx
+  App.css
+  main.jsx
+  assets/
+  components/
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# ASTELLA-1
+## Getting Started
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev -- --host 0.0.0.0
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```
+
+## Available Scripts
+
+```bash
+npm run dev
+npm run build
+npm run preview
+```
+
+## Brand Concept
+
+HAVEN is designed as a premium travel brand for people who want memorable experiences, beautiful photography, immersive food culture, and unforgettable city or nature escapes.
+
+## Repository
+
+This project is a showcase landing page for a modern African travel and experience brand.
